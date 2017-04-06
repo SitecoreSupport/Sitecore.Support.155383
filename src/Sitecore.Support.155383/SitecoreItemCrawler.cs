@@ -7,31 +7,16 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-using Sitecore.Configuration;
 using Sitecore.Data.LanguageFallback;
-using Sitecore.Globalization;
 
 namespace Sitecore.Support.ContentSearch
 {
-  using System;
-  using System.Collections.Generic;
-  using System.Globalization;
-  using System.Linq;
-  using System.Threading;
-
-  using Sitecore.Collections;
   using Sitecore.Abstractions;
 
   using Sitecore.ContentSearch;
   using Sitecore.ContentSearch.Diagnostics;
-  using Sitecore.ContentSearch.Pipelines.GetContextIndex;
-  using Sitecore.ContentSearch.Utilities;
-  using Sitecore.Data;
   using Sitecore.Data.Items;
-  using Sitecore.Data.Managers;
   using Sitecore.Diagnostics;
-  using Sitecore.Events;
-  using Sitecore.SecurityModel;
 
   /// <summary>
   /// The sitecore item crawler.
