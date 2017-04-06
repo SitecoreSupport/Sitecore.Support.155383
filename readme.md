@@ -1,5 +1,5 @@
 # Sitecore.Support.155383
-DatabaseCacheDisabler Switcher value is interpreted incorrectly in SqlDataProvider
+Incorrect item data can be indexed, if DisableDatabaseCaches setting value is set to true.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.155383/blob/master/LICENSE).  
